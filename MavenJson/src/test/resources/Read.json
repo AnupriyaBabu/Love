@@ -1,0 +1,13 @@
+{
+	"name": "Priya",
+	"age": 27,
+	"Status": true,
+	"address": {
+		"State": "Tamil Nadu",
+		"Country": "India"
+	},
+	"Courses": [
+		"Java",
+		"Selenium"
+	]
+}

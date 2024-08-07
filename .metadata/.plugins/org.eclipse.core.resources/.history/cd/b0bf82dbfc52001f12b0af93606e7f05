@@ -1,0 +1,12 @@
+package org.json.simple.parser;
+
+import java.io.FileReader;
+
+public class JSONParser {
+
+	public Object Parse(FileReader fileReader) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

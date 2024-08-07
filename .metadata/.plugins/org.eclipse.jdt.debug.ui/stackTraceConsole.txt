@@ -1,0 +1,10 @@
+io.cucumber.junit.UndefinedStepException: The step 'User should Enter the Login Crdentials' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("User should Enter the Login Crdentials")
+public void user_should_enter_the_login_crdentials() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+

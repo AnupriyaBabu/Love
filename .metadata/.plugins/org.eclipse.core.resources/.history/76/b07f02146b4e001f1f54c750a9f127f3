@@ -1,0 +1,46 @@
+package org.login;
+
+public class HDFCDatabase {
+
+	//Data Members
+	private String cusId;
+	
+	private int password;
+	
+	private int balance;
+
+	
+	//setter method
+	
+	public void setCusId(String cusId) {
+		if(cusId.equals("")) {
+		this.cusId =" cusId";
+	}
+		else if (cusId.equals("")) {
+			this.cusId =" cusId";
+		}
+		elseif(cusId.equals("")) {
+			this.cusId =" cusId";	
+		}
+		else {
+			this.cusId ="InValid Account";
+		}
+	public void setPassword(int password) {
+		this.password = password;
+	}
+
+	public String getCusId() {
+		return cusId;
+	}
+
+	public int getPassword() {
+		return password;
+	}
+	
+	
+	
+	
+	
+	
+
+}

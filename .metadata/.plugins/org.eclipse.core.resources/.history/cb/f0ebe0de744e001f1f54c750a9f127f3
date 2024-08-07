@@ -1,0 +1,19 @@
+package org.login;
+
+import java.io.IOException;
+
+public class Implementation {
+	
+	public static void main(String[] args) throws IOException {
+		
+		HDFCDatabase h=new HDFCDatabase();
+		h.readDataFromTextFile();
+		h.setCusId("123Sumaya");
+		h.setPassword(111);
+		h.setBalance();
+		
+		System.out.println(h.getBalance());
+		
+	}
+
+}
